@@ -1,7 +1,10 @@
 # IOT
 reading sensor data and publishing it to server
+
 There are two source code file :
+
 IOT.py for reading sensor data and publishing it to cloud server 
+
 server_side for receving POST request from IOT.py and saving sensor data to CSV file.
 
 Sample data:
