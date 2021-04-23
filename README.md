@@ -20,3 +20,12 @@ Commands to run server_side.py
 1. python3 server_side.py
 Server_side is ready and should be running
 
+
+IOT.py:
+is resposible for reading a record from dataset.csv every 5 seconds and send the data point to cloud. If server does not respond or gives any error code, the data point is stored in a buffer and is tried sending again every 2 seconds
+
+server_side.py:
+is resposible for receving POST request on the server side hosted with help of flask. after reading data point from post request, server try to save it OUTPUT.csv file. If any issue comes in appending data point, server respond with error code to client.
+
+
+
