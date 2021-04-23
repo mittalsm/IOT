@@ -16,11 +16,13 @@ After Pull request of the brach
 1. source IOT_env/bin/activate
 2. pip3 install requirements.txt
 3. python3 IOT.py
+
 client side code is ready and should be running
 
 Commands to run server_side.py
 
 1. python3 server_side.py
+
 Server_side is ready and should be running
 
 
@@ -31,4 +33,5 @@ server_side.py:
 is resposible for receving POST request on the server side hosted with help of flask. after reading data point from post request, server try to save it OUTPUT.csv file. If any issue comes in appending data point, server respond with error code to client.
 
 
-
+OUTPUT.csv
+All the data points that were received from client have been save to this file
